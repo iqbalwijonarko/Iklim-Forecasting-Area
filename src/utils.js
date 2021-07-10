@@ -34,7 +34,7 @@ export function utils(data) {
     tmpMax = []
     tmpMin = []
     
-    //weather day 1
+    //weather day 2
     for (i = 8; i < 16; i++) {
         tmpNum = list[i]["main"]["temp"]
         tmpMax.push(list[i]["main"]["temp_max"])
